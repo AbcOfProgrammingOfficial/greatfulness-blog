@@ -10,4 +10,5 @@ collections:
       folder: "src/blog"
       create: true
       slug:" {{year}}-{{month}}-{{day}}-{{slug}}"
-      fields
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
